@@ -1,1 +1,18 @@
+**Typography in tailwind**
 
+1-Control font size, color, and angle.
+
+1.
+<h1 class="text-3xl font-bold text-blue-700">
+  big text
+</h1>
+2.
+<p class="text-sm italic text-gray-600">
+Small and italic text
+</p>
+
+note:
+text-{size} → (sm, md, lg, xl, 2xl…)
+font-{weight} → (thin, normal, bold…)
+italic → italic text
+uppercase, lowercase, capitalize → Change case
