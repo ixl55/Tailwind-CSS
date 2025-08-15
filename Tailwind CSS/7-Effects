@@ -1,1 +1,16 @@
+Effects in tailwind
 
+1-Add shadows, movement, and transformations when interacting with the element
+<div class="shadow-lg hover:shadow-xl transition duration-300 p-4 bg-white">
+  box
+</div>
+
+
+**note:**
+shadow-{sm, md, lg, xl} → shadow
+
+opacity-{0..100} → transparency
+
+transition, duration-{ms} → Transition Movement
+
+hover:, focus: → Impact when passing or focusing
