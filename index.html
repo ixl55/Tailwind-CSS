@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tailwind CSS — شرح مختصر مع صور</title>
+  <title>Tailwind CSS — Overview with Images</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <meta name="description" content="Intro to Tailwind CSS with a clean bilingual (EN/AR) explanation and a front-end themed gallery." />
+  <meta name="description" content="Intro to Tailwind CSS with a clean explanation and a front-end themed image gallery." />
 </head>
 <body class="bg-slate-950 text-slate-100 antialiased">
-  <!-- Hero / Header -->
+  <!-- Header -->
   <header class="relative overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-br from-indigo-600/30 via-fuchsia-600/20 to-sky-500/20 blur-3xl"></div>
     <div class="relative mx-auto max-w-6xl px-4 py-14">
@@ -19,15 +19,13 @@
     </div>
   </header>
 
-  <!-- Image Gallery (Front-end related) -->
+  <!-- Image Gallery -->
   <section class="mx-auto max-w-6xl px-4 pb-10">
-    <!-- Section title -->
     <div class="mb-4 flex items-center justify-between">
       <h2 class="text-xl font-semibold">Frontend Gallery</h2>
-      <span class="text-xs text-slate-400">All images load from Wikimedia Commons</span>
+      <span class="text-xs text-slate-400">Images from Wikimedia Commons</span>
     </div>
 
-    <!-- Grid -->
     <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       <!-- Card 1 -->
       <figure class="group relative overflow-hidden rounded-xl bg-slate-900 ring-1 ring-white/10">
@@ -83,7 +81,7 @@
     </div>
   </section>
 
-  <!-- English Explanation -->
+  <!-- Explanation -->
   <section class="mx-auto max-w-6xl px-4 py-10">
     <h2 class="text-2xl font-semibold">What is Tailwind CSS?</h2>
     <p class="mt-3 text-slate-300 leading-7">
@@ -94,39 +92,13 @@
 
     <h3 class="mt-6 text-xl font-semibold">Benefits</h3>
     <ul class="mt-3 space-y-2 text-slate-300 leading-7 list-disc ps-6">
-      <li><span class="font-medium">Speed:</span> build interfaces quickly without writing long CSS files.</li>
-      <li><span class="font-medium">Control:</span> total freedom over colors, spacing, and sizing.</li>
-      <li><span class="font-medium">Clean code:</span> styles live next to the markup, fewer separate CSS files.</li>
-      <li><span class="font-medium">Responsive:</span> first-class responsive utilities for mobile, tablet, and desktop.</li>
-      <li><span class="font-medium">Highly customizable:</span> tweak the config (colors, fonts, breakpoints) or add your own utilities.</li>
+      <li><span class="font-medium">Speed:</span> Build interfaces quickly without writing long CSS files.</li>
+      <li><span class="font-medium">Control:</span> Total freedom over colors, spacing, and sizing.</li>
+      <li><span class="font-medium">Clean code:</span> Styles live next to the markup, fewer separate CSS files.</li>
+      <li><span class="font-medium">Responsive:</span> First-class responsive utilities for mobile, tablet, and desktop.</li>
+      <li><span class="font-medium">Highly customizable:</span> Tweak the config (colors, fonts, breakpoints) or add your own utilities.</li>
     </ul>
   </section>
 
-  <!-- Arabic Explanation -->
-  <section class="mx-auto max-w-6xl px-4 pb-16">
-    <h2 class="text-2xl font-semibold">ما هي Tailwind CSS؟</h2>
-    <p class="mt-3 text-slate-300 leading-8">
-      Tailwind CSS إطار عمل يعتمد على كلاسات جاهزة صغيرة (Utilities). بدل القوالب الجاهزة،
-      يعطيك أدوات دقيقة تتحكم في كل جزء من التصميم: الألوان، المسافات، الخطوط، التخطيط… إلخ.
-      تضع أسماء الكلاسات مباشرة داخل عناصر الـ HTML.
-    </p>
-
-    <h3 class="mt-6 text-xl font-semibold">الفوائد</h3>
-    <ul class="mt-3 space-y-2 text-slate-300 leading-8 list-disc ps-6">
-      <li><span class="font-medium">سرعة التطوير:</span> تقلل كتابة CSS طويلة وتبني الواجهة بسرعة.</li>
-      <li><span class="font-medium">تحكم كامل:</span> حرية كاملة في الألوان والمسافات والأحجام.</li>
-      <li><span class="font-medium">كود نظيف:</span> الكلاسات داخل نفس عنصر الـ HTML، وملفات CSS أقل.</li>
-      <li><span class="font-medium">استجابة تلقائية:</span> دعم قوي للجوال والتابلت والكمبيوتر.</li>
-      <li><span class="font-medium">تخصيص عالي:</span> تقدر تعدّل ملف الإعدادات وتضيف كلاساتك الخاصة.</li>
-    </ul>
-  </section>
-
-  <!-- Footer with small attribution note -->
-  <footer class="border-t border-white/10">
-    <div class="mx-auto max-w-6xl px-4 py-6 text-xs text-slate-400">
-      <!-- NOTE: Image credits kept lightweight for a demo page -->
-      Images: Wikimedia Commons files by respective authors (licenses: CC BY-SA / CC0). This page is for educational/demo use.
-    </div>
-  </footer>
 </body>
 </html>
