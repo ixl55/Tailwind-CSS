@@ -1,1 +1,14 @@
+Borders in tailwind
 
+1-Red and thick borders and rounded corners
+<div class="border-4 border-red-500 rounded-lg p-4">
+box
+</div>
+
+
+note:
+border → Adding borders
+
+border-{color}-{number} → color of the border
+
+rounded-{size} → Determine how round the corners are (sm, md, lg, full)
