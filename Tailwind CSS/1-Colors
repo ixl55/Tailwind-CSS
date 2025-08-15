@@ -1,1 +1,17 @@
+**color in tailwind**
 
+1-Blue background and white text
+`<div class="bg-blue-500 text-white p-4">`
+`hi`
+`</div>`
+
+2-When you pass the item the color changes
+`<div class="bg-green-400 hover:bg-green-600 text-white p-4">`
+  `start`
+`</div>`
+
+
+**note:**
+bg-<color>-<number> → background color
+text-<color>-<number> → text color
+border-<color>-<number> → color of the border
