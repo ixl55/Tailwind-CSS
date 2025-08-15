@@ -1,1 +1,18 @@
+Spacing in tailwind
 
+1-External distance 4 and internal distance 61-External distance 4 and internal distance 6
+<div class="m-4 p-6 bg-gray-200">
+box
+</div>
+
+2-Internal distance only from the top and bottom
+<div class="py-4 bg-gray-300">
+text
+</div>
+
+note:
+m-{number} → margin 
+p-{number} → padding 
+
+mt-, mb-, ml-, mr- → margin top/bottom/left/right
+pt-, pb-, pl-, pr- → padding top/bottom/left/right
