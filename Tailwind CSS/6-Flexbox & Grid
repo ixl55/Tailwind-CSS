@@ -1,1 +1,24 @@
+Flexbox & Grid in tailwind
 
+1-Arrange items inside the container easily.
+
+1.
+<!-- Flex: Arrange the elements horizontally and center them -->
+<div class="flex justify-center items-center h-32 bg-gray-100">
+  <div class="p-4 bg-blue-400">1</div>
+  <div class="p-4 bg-green-400">2</div>
+</div>
+
+2.
+<!-- Grid: 3 Columns with space between elements-->
+<div class="grid grid-cols-3 gap-4 mt-4">
+  <div class="bg-red-300 p-4">A</div>
+  <div class="bg-red-400 p-4">B</div>
+  <div class="bg-red-500 p-4">C</div>
+</div>
+
+
+note:
+Flex: flex, flex-row, flex-col, justify-{start, center, end, between}, items-{start, center, end, stretch}
+
+Grid: grid, grid-cols-{1..12}, gap-{number}
