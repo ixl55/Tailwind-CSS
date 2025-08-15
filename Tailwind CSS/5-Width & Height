@@ -1,1 +1,14 @@
+Width & Height in tailwind
 
+
+1-Specify the size of the item.
+
+<div class="w-1/2 h-32 bg-yellow-300">
+  Half-page wide box
+</div>
+
+w-{size} → Width (px، fraction،)
+
+h-{size} → Height
+
+max-w-{size}, min-w-{size} → Maximum and minimum width
