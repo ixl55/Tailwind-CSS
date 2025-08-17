@@ -1,5 +1,4 @@
 # Tailwind-CSS
-https://badgen.net/badge/icon/github?icon=github&label
 Tailwind CSS?
 
 Tailwind CSS is a framework for building website user interfaces, but it’s different from other frameworks like Bootstrap because it doesn’t provide ready-made templates. Instead, it offers small utility classes that let you control every part of the design (colors, sizes, fonts, spacing, etc.).
